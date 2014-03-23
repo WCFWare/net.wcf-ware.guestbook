@@ -16,18 +16,16 @@
 				<defaultvalue>1</defaultvalue>
 			</option>
 
-			<option name="entry_max_length">
+			<option name="guestbook_entry_max_length">
 				<categoryname>guestbook.general</categoryname>
 				<optiontype>integer</optiontype>
-				<defaultvalue>2000</defaultvalue>
-				<minvalue>1</minvalue>
-				<maxvalue>-1</maxvalue>
+				<defaultvalue>1000</defaultvalue>
 			</option>
 			
-			<option name="entries_per_page">
+			<option name="guestbook_entries_per_page">
 				<categoryname>guestbook.general</categoryname>
 				<optiontype>integer</optiontype>
-				<defaultvalue><![CDATA[10]]></defaultvalue>
+				<defaultvalue>10</defaultvalue>
 			</option>
 		</options>
 	</import>
