@@ -2,7 +2,10 @@
 <data xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/maelstrom/option.xsd">
 	<import>
 		<categories>
-			<category name="guestbook"></category>
+			<category name="guestbook">
+				<permissions>admin.guestbook.canManageGuestbook</permissions>
+				<options>module_guestbook</options>
+			</category>
 			
 			<category name="guestbook.general">
 				<parent>guestbook</parent>
