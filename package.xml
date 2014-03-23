@@ -24,6 +24,5 @@
 		<instruction type="option">option.xml</instruction>
 		<instruction type="language">language/*.xml</instruction>
 		<instruction type="pageMenu">pageMenu.xml</instruction>
-		<instruction type="script">acp/install_net.wcf-ware.guestbook_1.0.0.php</instruction>
 	</instructions>
 </package>
