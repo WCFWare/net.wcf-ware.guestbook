@@ -10,5 +10,5 @@ CREATE TABLE wcf1_guestbook_entry (
 	enableBBCodes TINYINT(1) NOT NULL DEFAULT 1,
 	isDeleted TINYINT(1) NOT NULL DEFAULT 0,
 	
-	KEY (time),
+	KEY (time)
 );
