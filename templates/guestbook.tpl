@@ -48,7 +48,6 @@
 						</div>
 					</li>
 				{/if}
-				
 				{event name='infoBoxes'}
 			{/content}
 		</ul>
